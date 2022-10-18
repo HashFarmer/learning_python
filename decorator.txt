@@ -1,0 +1,4 @@
+与 solidity的modifier有点类似
+
+https://www.programiz.com/python-programming/decorator
+
