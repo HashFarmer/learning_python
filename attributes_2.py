@@ -4,6 +4,7 @@ class ExampleClass(object):
 
   def __init__(self, instance_attr):
     self.instance_attr = instance_attr
+    self.class_attr = 1 ## 问题出在这里，相当于为foo对象添加了名为class_attr的实例属性，碰巧与类属性同名而已
 
 if __name__ == '__main__':
     foo = ExampleClass(1)
@@ -11,7 +12,7 @@ if __name__ == '__main__':
 
     #print the class attribute as a porperty of a foo
     print(foo.class_attr)
-    #0
+    print(foo.__class__.class_attr)
 
 
     #modify the class attribute as a foo property
