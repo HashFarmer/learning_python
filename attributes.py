@@ -18,6 +18,8 @@ class Parrot:
 blu = Parrot("Blu", 10)
 woo = Parrot("Woo", 15)
 
+# class attribute只能用“类名.”去修改
+
 blu.species = "flying bird"  # 类外获得一个与class attribute同名的instance attribute
 
 # access the class attributes
