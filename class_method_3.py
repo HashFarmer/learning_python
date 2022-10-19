@@ -7,6 +7,9 @@ You can create a static method for the above example but the object it creates, 
 But, when you use a class method, it creates the correct instance of the derived class.
 '''
 
+# 可见classmethod的真正作用在于 （1）扩张构造函数，（2）工厂类，可继承
+# 问题，在java中，是用什么方法实现这个功能的？
+
 
 from datetime import date
 
