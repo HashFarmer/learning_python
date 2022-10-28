@@ -1,0 +1,1 @@
+threading.Thread(target = func, args = ())         #在线程里灌注一个函数，可以用同一个函数，但是不同参数来灌注不同的线程
