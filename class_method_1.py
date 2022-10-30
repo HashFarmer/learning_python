@@ -16,5 +16,6 @@ class Person:
 # classmethod有两种调用方式
 Person.printAge()
 
+# 2:
 p1 = Person()
 p1.printAge()
