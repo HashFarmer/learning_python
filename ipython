@@ -1,0 +1,5 @@
+安装：
+python -m pip install ipython
+
+启动：
+命令行输入 ipython
